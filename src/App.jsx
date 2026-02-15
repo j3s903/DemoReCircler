@@ -23,7 +23,7 @@ import NotFoundPage from './pages/NotFoundPage';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/landing" element={<LandingPage />} />
           <Route element={<PageWrapper />}>
