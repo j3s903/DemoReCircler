@@ -1,0 +1,208 @@
+export const mockConversations = [
+  {
+    id: 'conv1',
+    itemId: 'item1',
+    participants: ['user1', 'user2'],
+    unread: 2,
+    lastMessageTime: '2025-01-22T14:15:00',
+    messages: [
+      {
+        id: 'msg1',
+        senderId: 'user2',
+        text: 'Hi Sarah! I saw your mid-century bookshelf listing. Is it still available?',
+        timestamp: '2025-01-20T10:30:00',
+      },
+      {
+        id: 'msg2',
+        senderId: 'user1',
+        text: 'Hi James! Yes, it is still available. Would you like to come and have a look?',
+        timestamp: '2025-01-20T11:05:00',
+      },
+      {
+        id: 'msg3',
+        senderId: 'user2',
+        text: 'That would be great. Could I pop round this weekend? I have a van so transport is no problem.',
+        timestamp: '2025-01-20T11:20:00',
+      },
+      {
+        id: 'msg4',
+        senderId: 'user1',
+        text: 'Saturday afternoon works well for me. How about 2pm? I am in Jesmond, just off Osborne Road.',
+        timestamp: '2025-01-20T12:00:00',
+      },
+      {
+        id: 'msg5',
+        senderId: 'user2',
+        text: 'Perfect, 2pm Saturday it is. I will message you when I am on my way. Thanks!',
+        timestamp: '2025-01-20T12:30:00',
+      },
+      {
+        id: 'msg6',
+        senderId: 'user2',
+        text: 'Just leaving Heaton now, should be with you in about 15 minutes.',
+        timestamp: '2025-01-22T13:45:00',
+      },
+      {
+        id: 'msg7',
+        senderId: 'user2',
+        text: 'The bookshelf looks even better in person. Thank you so much for donating it!',
+        timestamp: '2025-01-22T14:15:00',
+      },
+    ],
+  },
+  {
+    id: 'conv2',
+    itemId: 'item3',
+    participants: ['user2', 'user4'],
+    unread: 0,
+    lastMessageTime: '2025-02-05T18:30:00',
+    messages: [
+      {
+        id: 'msg8',
+        senderId: 'user4',
+        text: 'Hey James, could I borrow your cordless drill this weekend? I need to put up some shelves in the workshop.',
+        timestamp: '2025-02-03T09:00:00',
+      },
+      {
+        id: 'msg9',
+        senderId: 'user2',
+        text: 'Of course Tom! Both batteries are fully charged. When would you like to collect it?',
+        timestamp: '2025-02-03T09:45:00',
+      },
+      {
+        id: 'msg10',
+        senderId: 'user4',
+        text: 'Friday evening would be ideal if that works? I can drop it back Monday after work.',
+        timestamp: '2025-02-03T10:15:00',
+      },
+      {
+        id: 'msg11',
+        senderId: 'user2',
+        text: 'Friday evening is fine. I will be home after 6pm. The drill bits are in a separate case, I will include those too.',
+        timestamp: '2025-02-03T10:30:00',
+      },
+      {
+        id: 'msg12',
+        senderId: 'user4',
+        text: 'Brilliant, really appreciate it. See you Friday!',
+        timestamp: '2025-02-03T11:00:00',
+      },
+      {
+        id: 'msg13',
+        senderId: 'user4',
+        text: 'Shelves are up and looking great. Dropping the drill back to you now. Thanks again!',
+        timestamp: '2025-02-05T18:30:00',
+      },
+    ],
+  },
+  {
+    id: 'conv3',
+    itemId: 'item8',
+    participants: ['user1', 'user3'],
+    unread: 1,
+    lastMessageTime: '2025-02-12T16:00:00',
+    messages: [
+      {
+        id: 'msg14',
+        senderId: 'user3',
+        text: 'Hi Sarah, I noticed you have a Canon camera available to borrow. I am organising a university event next week and our photographer cancelled. Could I borrow it for the day?',
+        timestamp: '2025-02-10T14:00:00',
+      },
+      {
+        id: 'msg15',
+        senderId: 'user1',
+        text: 'Hi Priya! Of course, happy to help. Which day is the event?',
+        timestamp: '2025-02-10T14:30:00',
+      },
+      {
+        id: 'msg16',
+        senderId: 'user3',
+        text: 'It is next Thursday, the 20th. I would collect it Wednesday evening and return it Friday if that is okay?',
+        timestamp: '2025-02-10T15:00:00',
+      },
+      {
+        id: 'msg17',
+        senderId: 'user1',
+        text: 'That works perfectly. I will charge the battery and clear the SD card for you. Do you need any tips on using it?',
+        timestamp: '2025-02-10T15:30:00',
+      },
+      {
+        id: 'msg18',
+        senderId: 'user3',
+        text: 'I have used DSLRs before so I should be fine, but I might message you if I get stuck with any settings. Thank you so much!',
+        timestamp: '2025-02-10T16:00:00',
+      },
+      {
+        id: 'msg19',
+        senderId: 'user1',
+        text: 'No problem at all. Feel free to ask anything. See you Wednesday!',
+        timestamp: '2025-02-10T16:15:00',
+      },
+      {
+        id: 'msg20',
+        senderId: 'user3',
+        text: 'Quick question - does it have a flash attachment or just the built-in one?',
+        timestamp: '2025-02-12T16:00:00',
+      },
+    ],
+  },
+  {
+    id: 'conv4',
+    itemId: 'item9',
+    participants: ['user5', 'user6'],
+    unread: 0,
+    lastMessageTime: '2025-02-09T11:00:00',
+    messages: [
+      {
+        id: 'msg21',
+        senderId: 'user6',
+        text: 'Hello Lucy, I saw the children\'s bicycle you listed. My granddaughter is turning 7 next month and this would be a wonderful gift. Is it still available?',
+        timestamp: '2025-02-07T09:00:00',
+      },
+      {
+        id: 'msg22',
+        senderId: 'user5',
+        text: 'Hi David! Yes, it is still here. It was my daughter\'s favourite bike, so I am glad it could go to someone who will enjoy it.',
+        timestamp: '2025-02-07T10:30:00',
+      },
+      {
+        id: 'msg23',
+        senderId: 'user6',
+        text: 'That is lovely to hear. I am based in Tynemouth - would you be able to meet halfway, perhaps at the Gateshead Quayside?',
+        timestamp: '2025-02-07T11:00:00',
+      },
+      {
+        id: 'msg24',
+        senderId: 'user5',
+        text: 'The Quayside works perfectly for me. How about Sunday morning around 10am by the Millennium Bridge?',
+        timestamp: '2025-02-07T11:30:00',
+      },
+      {
+        id: 'msg25',
+        senderId: 'user6',
+        text: 'Sunday at 10am is ideal. I will be in a red jacket driving a silver Volvo. Thank you so much!',
+        timestamp: '2025-02-07T12:00:00',
+      },
+      {
+        id: 'msg26',
+        senderId: 'user5',
+        text: 'See you then! I will bring the stabilisers separately in a bag.',
+        timestamp: '2025-02-07T12:15:00',
+      },
+      {
+        id: 'msg27',
+        senderId: 'user6',
+        text: 'Just collected the bike - it is in wonderful condition. My granddaughter is going to love it. Thank you Lucy!',
+        timestamp: '2025-02-09T10:30:00',
+      },
+      {
+        id: 'msg28',
+        senderId: 'user5',
+        text: 'So glad to hear that! Hope she has a wonderful birthday. Enjoy!',
+        timestamp: '2025-02-09T11:00:00',
+      },
+    ],
+  },
+];
+
+export default mockConversations;
